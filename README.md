@@ -8,7 +8,7 @@ This template should help get you started developing with Tauri, React and Types
 
 ## Install LTS Node version
 ## Install Rust
-# Build
+## Build
 $ npm install
 
 $ npm run build
