@@ -12,4 +12,4 @@ This template should help get you started developing with Tauri, React and Types
 
 $ npm install
 
-$ npm run build
+$ npm run tauri build
