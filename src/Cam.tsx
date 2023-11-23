@@ -64,8 +64,6 @@ const Cam = () => {
                         <div className="flex flex-col gap-3">
                             <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0, transition: { duration: 2, } }} className=' text-xl font-semibold  text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'>Camera 2</motion.h1>
                             <Webcam className="rounded-3xl" ref={webcamRef2} audio={false} videoConstraints={{ deviceId: devices[1]?.deviceId }} /></div>
-
-
                         <button className="text-purple-700 bg-gradient-to-br from-indigo-600/60 to-white/40 border-[1px] border-black/20 rounded-2xl p-4 h-fit" onClick={capture2}><IoCameraOutline size={40}></IoCameraOutline></button>
                         <button onClick={() => setZoomImage2(!zoomImage2)} className="absolute bottom-0 right-3">
                             <img className="w-[100px] rounded-xl" src={imgSrc2 || ''} alt="" />
